@@ -8,7 +8,7 @@ on:
         required: true
         default: 'hanzo21'
       agent_description:
-        description: 'hanzo21'
+        description: 'hanzo21 AI Agent'
         required: true
         default: 'hanzo21 AI Agent'
 
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "hanzo21", "description": "hanzo21 AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name":"hanzo21,"description":"hanzo21 AI Agent"}'
